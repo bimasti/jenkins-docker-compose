@@ -1,3 +1,4 @@
+
 # Subindo Jenkins com docker-compose
 
 ## Deploy
@@ -13,3 +14,12 @@
 
 - http://localhost:8080
 
+
+## Atencao !!! 
+### No arquivo docker-copmpose.yaml Alterar PATH do volume para sua preferencia
+
+```bash
+volumes:
+      - '/{PATH}/jenkins:/var/jenkins_home'
+      - '/var/run/docker.sock:/var/run/docker.sock'
+```
