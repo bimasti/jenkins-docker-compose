@@ -8,7 +8,7 @@
 ```
 
 ## Atencao !!! 
-### No arquivo docker-copmpose.yaml Alterar PATH do volume para sua preferencia
+### No arquivo docker-compose.yaml Alterar PATH do volume para sua preferencia
 
 ```bash
 volumes:
